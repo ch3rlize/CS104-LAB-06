@@ -20,3 +20,21 @@ nav ul li a{
 display: flex; justify-content: center; align-items: center;
 }
 /*Practice Problem 3*/
+.color-change{
+    background-color: black; color: white;padding: 20px; text-align: center;
+}
+@media(max-width:299px){
+    .color-change{
+        background-color: green;
+    }
+}
+@media(min-width:601px){
+    .color-change{
+        background-color: blue;
+    }
+}
+@media(min-width:300px){
+    .color-change{
+        background-color: pink;
+    }
+}
