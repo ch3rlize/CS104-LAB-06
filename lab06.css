@@ -1,12 +1,22 @@
+/*Practice Problem 1*/
 nav{
-    background-color: darkgrey; height: 50px;padding: 10px; border-radius: 10px; display: flex; justify-content: space-evenly;
+    background-color: darkgrey; height: 50px;padding: 10px; border-radius: 10px; display: flex; justify-content: space-around; list-style: none;
 }
 nav ul li{
     list-style: none; display: inline-block; 
 }
+
 nav ul li a{
     color: pink;
 }
-div{
+/*Practice Problem 2*/
+#box1{
     width: 150px; height: 150px; background-color: black; color: white; display: inline-block;
 }
+#box2{
+    width: 100px; height: 100px; background-color: hotpink; color: white; display: inline-block; position: relative; right: 125px;
+}
+#container{
+display: flex; justify-content: center; align-items: center;
+}
+/*Practice Problem 3*/
