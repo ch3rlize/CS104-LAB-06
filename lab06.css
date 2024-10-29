@@ -40,5 +40,5 @@ display: flex; justify-content: center; align-items: center;
 }
 /*q1*/
 .static-box{
-    position: static;
+    width: 150px; height: 150px; background-color:black;color: white;position: static;
 }
