@@ -37,19 +37,21 @@ display: flex; justify-content: center; align-items: center;
     .color-change{
         background-color: pink;
     }
-}
 
 .static-box{
-    width: 150px; height: 150px; background-color:black;color: white;position: static;
+    width: 150px; height: 150px; background-color:black;color: white;position: static; display: inline-block;
 }
 
 .relative-box{
-    width: 150px; height: 150px; background-color: antiquewhite; position: relative; top: 20px; right: 30px;
+    width: 150px; height: 150px; background-color: antiquewhite; position: relative; top: 20px; right: 30px;display: inline-block;
 }
 .absolute-box{
-    width: 150px; height: 150px; background-color: gray; position: absolute; top: 10px; left: 15px;
+    width: 150px; height: 150px; background-color: gray; position: absolute; top: 10px; left: 15px;display: inline-block;
 }
 
 .fixed-box{
-    width: 150px; height: 150px; background-color: pink; position: fixed; bottom: 10px; right: 10px;
+    width: 150px; height: 150px; background-color: pink; position: fixed; bottom: 10px; right: 10px;display: inline-block;
 }
+.sticky-box{
+    width: 150px;height: 150px; background-color: black; color:white; position: sticky;top: 0px;display: inline-block;
+}}
