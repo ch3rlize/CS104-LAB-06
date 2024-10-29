@@ -7,3 +7,6 @@ nav ul li{
 nav ul li a{
     color: pink;
 }
+div{
+    width: 150px; height: 150px; background-color: black; color: white; display: inline-block;
+}
