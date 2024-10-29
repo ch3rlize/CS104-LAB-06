@@ -1,9 +1,9 @@
 /*Practice Problem 1*/
 nav{
-    background-color: darkgrey; height: 50px;padding: 10px; border-radius: 10px; display: flex; justify-content: space-around; list-style: none;
+    background-color: darkgrey; height: 50px;padding: 10px; border-radius: 10px; display: flex; justify-content: space-around;
 }
 nav ul li{
-    list-style: none; display: inline-block; 
+    list-style: none; display: inline-block;
 }
 
 nav ul li a{
